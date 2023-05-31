@@ -1,0 +1,47 @@
+{
+  "name": "string-converters",
+  "version": "1.0.0",
+  "description": "A utility library for converting data types and working with arrays. Provides converters for boolean, number, and string values, along with array conversion functions and support for values with predefined options.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krombik/string-converters.git"
+  },
+  "author": "Krombik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Krombik/string-converters/issues"
+  },
+  "homepage": "https://github.com/Krombik/string-converters#readme",
+  "type": "module",
+  "source": "src/index.ts",
+  "scripts": {
+    "build": "ts-node ./scripts/build.mts",
+    "release": "npm publish ./build"
+  },
+  "dependencies": {
+    "lodash.identity": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/lodash.identity": "^3.0.7",
+    "@types/node": "^20.2.5",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  },
+  "engines": {
+    "node": ">10"
+  },
+  "keywords": [
+    "string",
+    "conversion",
+    "data types",
+    "parsing",
+    "stringifying",
+    "boolean",
+    "number",
+    "array",
+    "options"
+  ],
+  "sideEffects": false
+}
