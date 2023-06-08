@@ -1,6 +1,6 @@
 {
   "name": "string-converters",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility library for converting data types and working with arrays. Provides converters for boolean, number, and string values, along with array conversion functions and support for values with predefined options.",
   "repository": {
     "type": "git",
@@ -27,7 +27,7 @@
     "prettier": "^2.8.8",
     "ts-node": "^10.9.1",
     "tsup": "^6.7.0",
-    "typescript": "^5.0.4"
+    "typescript": "5.0.4"
   },
   "engines": {
     "node": ">10"
